@@ -1,0 +1,55 @@
+h1{
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+body{
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+}
+
+/**
+ * Fixed Position: Anchors element to the browser
+ **/
+.fixed {
+    position: fixed;
+    padding: 40px;
+    text-align: center;
+    background: #c8cccc;
+    top: 0%;
+    left: 0%;
+  }
+
+/**
+ * Absolute Position: anchors element to the first element (overall box)
+ **/
+.absolute {
+    position: absolute;
+    padding: 40px;
+    background: #646464;
+    top: 300px;
+    left: 600px;
+    text-align: center;
+   }
+
+/**
+ * Absolute Position: anchors element to the first element (overall box)
+ **/
+.relative {
+    /* relative positioning */
+    position: relative;
+    width: auto;
+    height: 150px;
+    background: #c8cccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+.textwrap {
+      width: 800px;
+      padding: 20px;
+      margin: 0px auto;
+  }
